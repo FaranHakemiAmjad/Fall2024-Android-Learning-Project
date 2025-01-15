@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">lowercase imdb</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="sighUp">Sign Up</string>
+    <string name="yourName">Your Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="terms_accept">Agree to Terms</string>
+    <string name="imdb">IMDB</string>
+    <string name="profile">Profile</string>
+    <string name="categories">Categories</string>
+    <string name="new_btn">New</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="news">News</string>
+    <string name="celebs">Celebs</string>
+    <string name="movies">Movies</string>
+    <string name="shows">Shows</string>
+    <string name="events">Events</string>
+    <string name="addReport">Add Report</string>
+    <string name="upload">Upload</string>
+    <string name="category">Category</string>
+    <string-array name="categories">
+        <item>NEWS</item>
+        <item>CELEBS</item>
+        <item>MOVIES</item>
+        <item>SHOWS</item>
+        <item>EVENTS</item>
+    </string-array>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="what_do_want_to_do_with_this_report">What Do You Want To Do With This Report?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="editReport">Edit Report</string>
+    <string name="update">Update</string>
+    <string name="errorWentWrong">Something Went Wrong!</string>
+    <string name="image_url">Image Url</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/logo_imdb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/imdb_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/atrox"
+            android:paddingHorizontal="5dp"
+            android:text="@string/email"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/email_tv"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/password_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_et"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/atrox"
+            android:paddingHorizontal="5dp"
+            android:text="@string/password"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/password_tv"
+            android:inputType="textPassword"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25">
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape_yellow600"
+            android:fontFamily="@font/atrox"
+            android:text="@string/signIn"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:onClick="signIn"/>
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_in_btn"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape_black"
+            android:fontFamily="@font/atrox"
+            android:text="@string/sighUp"
+            android:textColor="@color/yellow_600"
+            android:textSize="20sp"
+            android:onClick="signUp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
